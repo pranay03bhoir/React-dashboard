@@ -22,10 +22,9 @@ const Settings = () => {
   };
 
   return (
-    <div className="ml-64 p-6">
-      <h1 className="text-3xl font-bold mb-6">Settings</h1>
+    <div className="p-6 max-w-md mx-auto">
+      <h1 className="text-3xl text-center font-bold mb-6">Settings</h1>
       <form onSubmit={handleSubmit} className="max-w-lg space-y-4">
-        {/* Username */}
         <div className="flex flex-col">
           <label htmlFor="username" className="mb-1 font-semibold">
             Username
@@ -41,7 +40,6 @@ const Settings = () => {
           />
         </div>
 
-        {/* Email */}
         <div className="flex flex-col">
           <label htmlFor="email" className="mb-1 font-semibold">
             Email
@@ -57,7 +55,6 @@ const Settings = () => {
           />
         </div>
 
-        {/* Notifications */}
         <div className="flex items-center space-x-2">
           <input
             type="checkbox"
@@ -72,7 +69,6 @@ const Settings = () => {
           </label>
         </div>
 
-        {/* Submit Button */}
         <button
           type="submit"
           className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
@@ -85,4 +81,3 @@ const Settings = () => {
 };
 
 export default Settings;
- 
