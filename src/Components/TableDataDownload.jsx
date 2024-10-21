@@ -11,7 +11,7 @@ const TableDataDownload = ({filteredData}) => {
   
     return (
     <div>
-      <button onClick={exportToExcel} className='text-3xl text-green-800'>
+      <button onClick={exportToExcel} className='text-3xl cursor-pointer text-green-800'>
         <i class="fa-solid fa-file-excel"></i>
       </button>
       <strong className='ms-5 text-cyan-500 text-nowrap'>Download to excel</strong>
