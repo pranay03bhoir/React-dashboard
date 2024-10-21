@@ -43,7 +43,7 @@ const Dashboard = () => {
   const pageCount = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
 
   return (
-    <div className="ml-10 p-6 w-auto">
+    <div className="p-6 w-auto">
       <h1 className="text-3xl font-bold mb-6">Dashboard</h1>
       <div className="grid justify-start float-start">
         <TableDataDownload filteredData={filteredData} />
