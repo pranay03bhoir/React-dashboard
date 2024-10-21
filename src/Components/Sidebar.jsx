@@ -12,7 +12,7 @@ const Sidebar = () => {
       <div className="relative float-end me-3 mt-6">
         <FaArrowLeftLong
           className={`bg-white text-black rounded-full p-2 text-4xl border-black cursor-pointer ${
-            !open && "rotate-180 text-white bg-black"
+            !open && "rotate-180 text-white bg-stone-950"
           } duration-300 `}
           onClick={() => setOpen(!open)}
         />
