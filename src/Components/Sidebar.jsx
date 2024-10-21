@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div
       className={` h-screen bg-gray-800 text-white fixed ${
-        open ? "w-64" : "w-12 bg-white bg-transparent"
+        open ? "w-64" : "w-12 bg-transparent"
       } duration-300`}
     >
       <div className="relative float-end me-3 mt-6">
