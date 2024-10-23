@@ -134,7 +134,7 @@ const Profile = () => {
           <label className="block text-gray-700">Industry</label>
           <input
             type="text"
-            name="firstName"
+            name="industry"
             value={formData.industry}
             onChange={handleChange}
             className={`border p-2 w-full rounded ${
